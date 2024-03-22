@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\cerrar.png" />
+    <None Remove="Images\imgBienvenida.jpg" />
+    <None Remove="Images\logo_bemira_2019.jpg" />
+    <None Remove="Images\maximizar.png" />
+    <None Remove="Images\minimizar.png" />
+    <None Remove="Images\usuarioVerificado.png" />
+    <None Remove="View\InicioSesion.xaml~RFf12556.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.WPF" Version="4.7.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\cerrar.png" />
+    <Resource Include="Images\imgBienvenida.jpg" />
+    <Resource Include="Images\logo_bemira_2019.jpg" />
+    <Resource Include="Images\maximizar.png" />
+    <Resource Include="Images\minimizar.png" />
+    <Resource Include="Images\usuarioVerificado.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="UserControls\Layout.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AbrirCaja.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ConfiguracionCaseta.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\InicioSesion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\NuevaTarjeta.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\OficinaCaseta.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\PrincipalOficina.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Layout.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AbrirCaja.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ConfiguracionCaseta.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\InicioSesion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\NuevaTarjeta.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\OficinaCaseta.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\PrincipalOficina.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

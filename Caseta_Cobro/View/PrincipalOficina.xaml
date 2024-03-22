@@ -1,0 +1,91 @@
+﻿<Window x:Class="Caseta_Cobro.View.PrincipalOficina"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Caseta_Cobro.View"
+        xmlns:uc="clr-namespace:Caseta_Cobro.UserControls"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Title="PrincipalOficina" Height="450" Width="750">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1">
+            <Grid>
+                <Border Grid.Row="1" BorderBrush="Black" BorderThickness="0 1 0 1"/>
+                <Border Grid.Row="4" BorderBrush="Black" BorderThickness="0 1 0 0"/>
+                <Border Grid.Row="2" BorderBrush="Black" BorderThickness="0 1 0 0"/>
+                <Border Grid.Row="0" BorderBrush="Black" BorderThickness="0 0 0 0"/>
+
+                <uc:Layout/>
+                
+                <Grid
+                    Grid.Row="1">
+                    <Menu
+                        Background="White"
+                        VerticalAlignment="Center"
+                        BorderBrush="Transparent"
+                        BorderThickness="0"
+                        >
+                        <MenuItem
+                            Header="Operaciones con tarjetas"
+                            Background="White"
+                            >
+                            <MenuItem 
+                                Header="Nueva Tarjeta"
+                                Click="OnSubmenuOpened_Click"/>
+                            <MenuItem
+                                Header="Nueva Tarjeta VIP"/>
+                            <Separator/>
+                            <MenuItem
+                                Header="Renovacion de Tarjeta">
+                                <MenuItem
+                                    Header="Pase Normal"/>
+                                <MenuItem
+                                    Header="Pase VIP"/>
+                            </MenuItem>
+                            <Separator/>
+                            <MenuItem
+                                Header="Recarga de Tarjeta"/>
+                        </MenuItem>
+                        <Button
+                            Content="Cerrar Sesion"
+                            Background="White"
+                            VerticalAlignment="Center"
+                            BorderBrush="Transparent"
+                            Click="btnCloseOficina_Click"/>
+                    </Menu>
+                </Grid>
+                <Grid
+                    Grid.Row="2">
+
+                    <Image Stretch="Fill">
+                        <Image.Source>
+                            <BitmapImage
+                            UriSource="\Images\imgBienvenida.jpg"/>
+                        </Image.Source>
+                    </Image>
+                    <Grid>
+                        <TextBlock 
+                            Text="¡BIENVENIDA!"
+                            Foreground="#2b3386" 
+                            FontSize="25" 
+                            FontWeight="Bold"
+                            HorizontalAlignment="Center"
+                            Margin="0 20"
+                            />
+                    </Grid>
+               
+                    
+                </Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="375"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
