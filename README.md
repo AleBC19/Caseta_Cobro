@@ -1,0 +1,1 @@
+Install dependence FontAwesome.Sharp
