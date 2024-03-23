@@ -10,16 +10,16 @@
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="80"/>
-                <ColumnDefinition/>
-                <ColumnDefinition Width="25"/>
-                <ColumnDefinition Width="25"/>
-                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="30"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock
-                Text="Caseta de Peaje - Viaducto Punta Diamante"
+            <Label
+                Content="Caseta de Peaje - Viaducto Punta Diamante"
                 Grid.Column="1"
-                VerticalAlignment="Center"/>
+                Style="{StaticResource textLayout}"/>
 
             <Image
                 Height="20"
@@ -33,24 +33,17 @@
             <Button
                 x:Name="btnMinimize"
                 Grid.Column="2"
-                Background="Transparent"
-                BorderThickness="0"
-                Cursor="Hand"
-                VerticalAlignment="Bottom"
-                Margin="0 0 0 1"
-                Click="btnMinimize_Click">
+                Click="btnMinimize_Click"
+                Style="{StaticResource buttonIcon}">
                 <icon:IconImage 
-                    Icon="WindowMinimize"
-                    />
+                    Icon="WindowMinimize"/>
             </Button>
 
             <Button
                 x:Name="btnMaximize"
                 Grid.Column="3"
-                Background="Transparent"
-                BorderThickness="0"
-                Cursor="Hand"
-                Click="btnMaximize_Click">
+                Click="btnMaximize_Click"
+                Style="{StaticResource buttonIcon}">
                 <icon:IconImage 
                     Icon="WindowMaximize"/>
             </Button>
@@ -58,10 +51,8 @@
             <Button
                 x:Name="btnClose"
                 Grid.Column="4"
-                Background="Transparent"
-                BorderThickness="0"
-                Cursor="Hand"
-                Click="btnClose_Click">
+                Click="btnClose_Click"
+                Style="{StaticResource buttonIcon}">
                 <icon:IconImage 
                     Icon="Xmark"/>
             </Button>

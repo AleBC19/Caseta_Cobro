@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\App.xaml
-8-590749166
+9-1710126150
 
-12554996289
+11707127989
 208958724277
-MainWindow.xaml;UserControls\Layout.xaml;View\AbrirCaja.xaml;View\ConfiguracionCaseta.xaml;View\InicioSesion.xaml;View\NuevaTarjeta.xaml;View\OficinaCaseta.xaml;View\PrincipalOficina.xaml;
+MainWindow.xaml;Resources\StylesLayout.xaml;UserControls\Layout.xaml;View\AbrirCaja.xaml;View\ConfiguracionCaseta.xaml;View\InicioSesion.xaml;View\NuevaTarjeta.xaml;View\OficinaCaseta.xaml;View\PrincipalOficina.xaml;
 
 False
 

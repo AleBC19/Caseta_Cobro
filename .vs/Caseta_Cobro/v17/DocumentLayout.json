@@ -1,12 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Documents\\TECNOLOGICO\\RESIDENCIAS\\Caseta_Cobro\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A5303C9-F0D6-4142-B384-E92EE17E1A72}|Caseta_Cobro\\Caseta_Cobro.csproj|d:\\documents\\tecnologico\\residencias\\caseta_cobro\\caseta_cobro\\view\\oficinacaseta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6A5303C9-F0D6-4142-B384-E92EE17E1A72}|Caseta_Cobro\\Caseta_Cobro.csproj|solutionrelative:caseta_cobro\\view\\oficinacaseta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A5303C9-F0D6-4142-B384-E92EE17E1A72}|Caseta_Cobro\\Caseta_Cobro.csproj|d:\\documents\\tecnologico\\residencias\\caseta_cobro\\caseta_cobro\\view\\iniciosesion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6A5303C9-F0D6-4142-B384-E92EE17E1A72}|Caseta_Cobro\\Caseta_Cobro.csproj|solutionrelative:caseta_cobro\\view\\iniciosesion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InicioSesion.xaml",
+              "DocumentMoniker": "D:\\Documents\\TECNOLOGICO\\RESIDENCIAS\\Caseta_Cobro\\Caseta_Cobro\\View\\InicioSesion.xaml",
+              "RelativeDocumentMoniker": "Caseta_Cobro\\View\\InicioSesion.xaml",
+              "ToolTip": "D:\\Documents\\TECNOLOGICO\\RESIDENCIAS\\Caseta_Cobro\\Caseta_Cobro\\View\\InicioSesion.xaml",
+              "RelativeToolTip": "Caseta_Cobro\\View\\InicioSesion.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-23T21:11:02.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OficinaCaseta.xaml",
+              "DocumentMoniker": "D:\\Documents\\TECNOLOGICO\\RESIDENCIAS\\Caseta_Cobro\\Caseta_Cobro\\View\\OficinaCaseta.xaml",
+              "RelativeDocumentMoniker": "Caseta_Cobro\\View\\OficinaCaseta.xaml",
+              "ToolTip": "D:\\Documents\\TECNOLOGICO\\RESIDENCIAS\\Caseta_Cobro\\Caseta_Cobro\\View\\OficinaCaseta.xaml*",
+              "RelativeToolTip": "Caseta_Cobro\\View\\OficinaCaseta.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-23T21:10:53.286Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

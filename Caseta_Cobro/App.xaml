@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:Caseta_Cobro"
              StartupUri="View/InicioSesion.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/StylesLayout.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

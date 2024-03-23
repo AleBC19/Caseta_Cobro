@@ -36,3 +36,6 @@ D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Caseta_Cobro.csproj.AssemblyReference.cache
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Caseta_C.8FF73402.Up2Date
+D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Caseta_Cobro.sourcelink.json
+D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\App.baml
+D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Resources\StylesLayout.baml

@@ -17,7 +17,7 @@
             <Border Grid.Row="1" BorderBrush="Black" BorderThickness="0 1 0 1"/>
 
             <uc:Layout/>
-
+ 
             <Grid
                 Grid.Row="1">
                
@@ -97,8 +97,9 @@
             </Grid>
    
             <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
                 <RowDefinition Height="20"/>
-                <RowDefinition Height="410" />
             </Grid.RowDefinitions>
            
         </Grid>

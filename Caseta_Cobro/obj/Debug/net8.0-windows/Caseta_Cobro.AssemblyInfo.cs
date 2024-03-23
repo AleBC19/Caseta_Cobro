@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Caseta_Cobro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17d7aa675371a15ba9720b6ca97502af8f2e5a57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e53eaa1700be527098ad738c85cca446e6445e9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Caseta_Cobro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Caseta_Cobro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

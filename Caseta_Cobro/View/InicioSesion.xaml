@@ -11,16 +11,12 @@
         ResizeMode="NoResize"
         MouseDown="Window_MouseDown"
         WindowStartupLocation="CenterScreen"
-        Background="White">
-
-    <Viewbox Stretch="Uniform" Width="Auto">
-
-        <Border 
+        Background="Transparent">
+    
+    <Border 
             BorderBrush="Black" 
             BorderThickness="1" 
-            Background="White"
-            Width="750"
-            Height="450">
+            Background="White">
             <Grid>
                 <Border 
                 Grid.Row="1" 
@@ -28,72 +24,81 @@
                 BorderThickness="0 1 0 1"/>
 
                 <uc:Layout Grid.Row="0"/>
+                
+            <Grid Grid.Row="1" 
+                  VerticalAlignment="Center" 
+                  HorizontalAlignment="Center">
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="*" MaxWidth="650"/>
+                    <ColumnDefinition Width="200" />
+                </Grid.ColumnDefinitions>
 
                 <StackPanel
-                Grid.Row="1"
-                Width="350"
-                Orientation="Vertical"
-                Margin="0 70"
-                VerticalAlignment="Center">
-
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+                    
                     <Image Width="Auto">
                         <Image.Source>
                             <BitmapImage
-                            UriSource="\Images\logo_bemira_2019.jpg"/>
+                                 UriSource="\Images\logo_bemira_2019.jpg"/>
                         </Image.Source>
                     </Image>
 
                     <Label
-                    Content="USUARIO" 
-                    VerticalAlignment="Center"
-                    HorizontalAlignment="Center" 
-                    FontSize="12" 
-                    FontFamily="Arial"
-                />
+                        Content="USUARIO" 
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center" 
+                        FontSize="12" 
+                        FontFamily="Arial" />
+
                     <Border CornerRadius="3"
-                        BorderThickness="1"
-                        BorderBrush="#9fc5f8">
+                            BorderThickness="1"
+                            BorderBrush="#9fc5f8">
                         <TextBox 
-                        x:Name="txtUser" 
-                        Background="Transparent"
-                        BorderThickness="0">
+                            x:Name="txtUser" 
+                            Background="Transparent"
+                            BorderThickness="0">    
                         </TextBox>
                     </Border>
 
                     <Label
-                    Content="CONTRASEÑA"
-                    VerticalAlignment="Center"
-                    HorizontalAlignment="Center"
-                    FontSize="12"
-                    FontFamily="Arial"
-                    Margin="0 8 0 0"/>
+                        Content="CONTRASEÑA"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"
+                        FontSize="12"
+                        FontFamily="Arial"
+                        Margin="0 8 0 0"/>
                     <Border CornerRadius="3"
-                        BorderThickness="1"
-                        BorderBrush="#9fc5f8">
+                            BorderThickness="1"
+                            BorderBrush="#9fc5f8">
                         <TextBox
-                        x:Name="txtPassword"
-                        Background="Transparent"
-                        BorderThickness="0">
+                            x:Name="txtPassword"
+                            Background="Transparent"
+                            BorderThickness="0">
                         </TextBox>
                     </Border>
 
                     <Button 
-                    x:Name="btnLogin"
-                    Content="INICIAR SESION"
-                    Background="#2b3386"
-                    Foreground="White"
-                    Margin="0 20"
-                    Cursor="Hand"
-                    Click="btnLogin_Click"/>
-
+                        x:Name="btnLogin"
+                        Content="INICIAR SESION"
+                        Background="#2b3386"
+                        Foreground="White"
+                        Margin="0 20"
+                        Cursor="Hand"
+                        Click="btnLogin_Click"/>
                 </StackPanel>
+            </Grid>
+                
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="30"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="20"/>
                 </Grid.RowDefinitions>
-
             </Grid>
         </Border>
-    </Viewbox>
 </Window>
