@@ -3,8 +3,6 @@ D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\bin\Debug\net8.0-
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\bin\Debug\net8.0-windows\Caseta_Cobro.runtimeconfig.json
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\bin\Debug\net8.0-windows\Caseta_Cobro.dll
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\bin\Debug\net8.0-windows\Caseta_Cobro.pdb
-D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\bin\Debug\net8.0-windows\FontAwesome.WPF.dll
-D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Caseta_Cobro.csproj.AssemblyReference.cache
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\MainWindow.g.cs
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\UserControls\Layout.g.cs
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\View\AbrirCaja.g.cs
@@ -30,9 +28,11 @@ D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Caseta_Cobro.AssemblyInfoInputs.cache
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Caseta_Cobro.AssemblyInfo.cs
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Caseta_Cobro.csproj.CoreCompileInputs.cache
-D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Caseta_C.8FF73402.Up2Date
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Caseta_Cobro.dll
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\refint\Caseta_Cobro.dll
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Caseta_Cobro.pdb
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Caseta_Cobro.genruntimeconfig.cache
 D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\ref\Caseta_Cobro.dll
+D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Caseta_Cobro.csproj.AssemblyReference.cache
+D:\Documents\TECNOLOGICO\RESIDENCIAS\Caseta_Cobro\Caseta_Cobro\obj\Debug\net8.0-windows\Caseta_C.8FF73402.Up2Date

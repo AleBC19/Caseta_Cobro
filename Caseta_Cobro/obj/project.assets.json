@@ -2,49 +2,40 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
-      "FontAwesome.WPF/4.7.0.9": {
+      "FontAwesome.Sharp/6.3.0": {
         "type": "package",
         "compile": {
-          "lib/net40/FontAwesome.WPF.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0-windows7.0/FontAwesome.Sharp.dll": {}
         },
         "runtime": {
-          "lib/net40/FontAwesome.WPF.dll": {
-            "related": ".xml"
-          }
-        }
+          "lib/net6.0-windows7.0/FontAwesome.Sharp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
       }
     }
   },
   "libraries": {
-    "FontAwesome.WPF/4.7.0.9": {
-      "sha512": "SXE080rnyWMm9Dt0BZzMxh89/o9teuSaqL1N+0O/XM/F/HU8JuZA4XaEKxjBigwZPHHU3/udTa0QMYCHkmH43Q==",
+    "FontAwesome.Sharp/6.3.0": {
+      "sha512": "3/Fb0N04yYK8An07oox5ISlUyNgsnWildHfoP69uqTEOsemQemRyciphMkXZOcdBupjUD+lVsRE3FqG41/dzPA==",
       "type": "package",
-      "path": "fontawesome.wpf/4.7.0.9",
-      "hasTools": true,
+      "path": "fontawesome.sharp/6.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fontawesome.wpf.4.7.0.9.nupkg.sha512",
-        "fontawesome.wpf.nuspec",
-        "lib/net35/FontAwesome.WPF.dll",
-        "lib/net35/FontAwesome.WPF.xml",
-        "lib/net40/FontAwesome.WPF.dll",
-        "lib/net40/FontAwesome.WPF.xml",
-        "lib/uap10.0/FontAwesome.UWP.XML",
-        "lib/uap10.0/FontAwesome.UWP.dll",
-        "lib/uap10.0/FontAwesome.UWP.pri",
-        "lib/uap10.0/FontAwesome.UWP/FontAwesome.otf",
-        "lib/wp81/FontAwesome.WIN81.dll",
-        "lib/wp81/FontAwesome.WIN81.xml",
-        "tools/install.ps1"
+        "fontawesome.sharp.6.3.0.nupkg.sha512",
+        "fontawesome.sharp.nuspec",
+        "lib/net472/FontAwesome.Sharp.dll",
+        "lib/net48/FontAwesome.Sharp.dll",
+        "lib/net6.0-windows7.0/FontAwesome.Sharp.dll",
+        "lib/netcoreapp3.1/FontAwesome.Sharp.dll"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "FontAwesome.WPF >= 4.7.0.9"
+      "FontAwesome.Sharp >= 6.3.0"
     ]
   },
   "packageFolders": {
@@ -91,9 +82,9 @@
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
         "dependencies": {
-          "FontAwesome.WPF": {
+          "FontAwesome.Sharp": {
             "target": "Package",
-            "version": "[4.7.0.9, )"
+            "version": "[6.3.0, )"
           }
         },
         "imports": [
@@ -118,17 +109,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"FontAwesome.WPF 4.7.0.9\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "FontAwesome.WPF",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

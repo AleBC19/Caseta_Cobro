@@ -45,9 +45,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
-            "FontAwesome.WPF": {
+            "FontAwesome.Sharp": {
               "target": "Package",
-              "version": "[4.7.0.9, )"
+              "version": "[6.3.0, )"
             }
           },
           "imports": [

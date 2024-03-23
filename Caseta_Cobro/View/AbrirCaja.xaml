@@ -4,7 +4,6 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Caseta_Cobro.View"
-        xmlns:fa="http://schemas.fontawesome.io/icons/"
         xmlns:uc="clr-namespace:Caseta_Cobro.UserControls"
         mc:Ignorable="d"
         WindowStyle="None"
@@ -179,9 +178,9 @@
             </Grid>
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="30"/>
+                <RowDefinition Height="22"/>
                 <RowDefinition Height="25"/>
-                <RowDefinition Height="375"/>
+                <RowDefinition Height="385"/>
                 <RowDefinition Height="30"/>
             </Grid.RowDefinitions>
         </Grid>

@@ -180,9 +180,9 @@
 
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="30"/>
-                <RowDefinition Height="20"/>
-                <RowDefinition Height="380"/>
+                <RowDefinition Height="22"/>
+                <RowDefinition Height="25"/>
+                <RowDefinition Height="385"/>
                 <RowDefinition Height="30"/>
             </Grid.RowDefinitions>
         </Grid>

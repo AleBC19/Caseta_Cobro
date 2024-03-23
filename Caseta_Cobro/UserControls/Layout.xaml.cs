@@ -33,7 +33,17 @@ namespace Caseta_Cobro.UserControls
         private void btnMaximize_Click(object sender, RoutedEventArgs e)
         {
             Window window = Window.GetWindow(this);
-            window.WindowState |= WindowState.Maximized;
+
+            if(window.WindowState == WindowState.Normal)
+            {
+                window.WindowState = WindowState.Maximized;
+
+            } else
+            {
+                window.WindowState = WindowState.Normal;
+            }
+
+          
         }
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
